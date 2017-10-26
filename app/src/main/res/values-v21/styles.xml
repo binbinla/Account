@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ColorTransluteStatusBar" parent="BaseAppTheme">
+        <item name="android:statusBarColor">@color/colorApp</item>
+    </style>
+</resources>

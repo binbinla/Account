@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@color/colorApp"
+    tools:context="com.example.administrator.account.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_account_detail"
+            android:text="@string/account_detail"
+            android:textSize="10sp"
+            android:textColor="@drawable/selector_text_black_yellow"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:layout_gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/rb_chart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_charts"
+            android:text="@string/account_detail"
+            android:textSize="10sp"
+            android:textColor="@drawable/selector_text_black_yellow"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:layout_gravity="center"
+            />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:translationY="-20dp"
+
+            >
+            <ImageView
+                android:id="@+id/iv_add_account"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_account"
+                android:background="@drawable/bg_add_acount"
+                />
+        </FrameLayout>
+
+
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_discoverl"
+            android:text="@string/account_detail"
+            android:textColor="@drawable/selector_text_black_yellow"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:layout_gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_mine"
+            android:text="@string/account_detail"
+            android:textSize="10sp"
+            android:textColor="@drawable/selector_text_black_yellow"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:layout_gravity="center"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>

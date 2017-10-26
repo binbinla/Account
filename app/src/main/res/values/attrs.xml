@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavigationView">
+        <!--中间区域的宽度-->
+        <attr name="centerWidth" format="dimension|reference"/>
+        <attr name="centerHeight" format="dimension|reference"/>
+        <attr name="centerMarginBottom" format="dimension|reference"/>
+        <attr name="centerBackground" format="color|reference"/>
+    </declare-styleable>
+</resources>
